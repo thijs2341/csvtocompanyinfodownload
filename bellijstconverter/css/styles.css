@@ -1,0 +1,22 @@
+.pdfobject-container { height: 500px;}
+.pdfobject { border: 1px solid #666; }
+body{background-color: #f3f3f3; Margin:0p;}
+h2{color:#005c99;}
+h1{color:white;font-size: 50px;}
+.navbar{position:fixed;background-color: white; width: 100%;border-radius:0px;}
+footer{background-color: white; width: 100%;}
+.navbar-brand>img {height:20px;}
+.uninav{color: gray;font-size: 17px;padding: 12px;padding-left: 0px;}
+.unifooter{padding:10px;}
+.btn-primary{background-color:#005c99;border-radius:0px;border-color:#005c99;color:white;}
+.btn-primary:hover{background-color:white;border-color:#005c99;color:#005c99;}
+.btn-primary:active{background-color:white;border-color:#005c99;color:#005c99;}
+.btn-primary:after{background-color:white;border-color:#005c99;color:#005c99;}
+.btn-primary:selection{background-color:white;border-color:#005c99;color:#005c99;}
+.btn-primary:focus{background-color:#005c99;border-radius:0px;border-color:#005c99;color:white;}
+.btn-primary:checked{background-color:white;border-color:#005c99;color:#005c99;}
+a{color:#005c99;text-decoration: underline;}
+a:hover{color:#8c34cb;}
+a:after{color:#8c34cb;}
+.form-control{border-radius:0px;}
+.headerimage{background-color:#005c99; background-attachment: fixed; background-position:center; background-size:cover;width:100%}

@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+ 
+  <link href="https://www.unipartners.nl/wp-content/themes/uni/assets/img/favicon.png" rel="shortcut icon">
+  <link rel="icon" href="https://www.unipartners.nl/wp-content/uploads/2017/10/cropped-Favicon-UP-32x32.png" sizes="32x32" />
+  <link rel="icon" href="https://www.unipartners.nl/wp-content/uploads/2017/10/cropped-Favicon-UP-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="https://www.unipartners.nl/wp-content/uploads/2017/10/cropped-Favicon-UP-180x180.png" />
+  <meta name="msapplication-TileImage" content="https://www.unipartners.nl/wp-content/uploads/2017/10/cropped-Favicon-UP-270x270.png" />
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="vendors/papaparse.min.js"></script>
+ <script src="Javascript/sbi-converter.js"></script>
+
+  
+  <title>Bel-lijst converter</title>
+ 
+ </head>
+
+ <body>
+
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+      <div class="container">
+        <div class="row">     
+        
+        </div>
+      </div>
+    </nav>
+
+  <div class="headerimage">
+    <div class="container" style="padding:100px 50px 50px 50px;">
+        <h1>Bel-lijst converter</h1>
+    </div>
+  </div>
+	
+  <div class="container" style="padding:50px 50px;">
+     <div class="row">
+	<h2>Stap 1</h2>
+	    <p>Filter alle lege cellen en letters uit het van de vestiging ontvangen bestand, (klik <a target="_blank" href="https://www.youtube.com/watch?v=Tb2dbJWDVco">hier</a> voor meer informatie over hoe je in Excel kunt filteren). <br>
+	    Kijk daarna in het bestand of de SBI-codes goed zijn geselecteerd, er mogen geen overkoepelende en onderliggende SBI-codes van dezelfde categorie voorkomen (01 en 01.22 zijn bijvoorbeeld niet toegestaan).
+	    </p>		
+      </div>
+		
+     <div class="row">
+	<h2>Stap 2</h2>
+	    <p> Maak in Microsoft Excel<sup>&#174;</sup> een nieuw bestand aan en vul in de linkerkolom (A) <b>ALLEEN</b> de SBI-codes (maximaal 106) in. Sla dit bestand nu op als .CSV (gescheiden door lijstscheidingstekens) op.
+     </div>
+	
+	
+     <div class="row">
+	<h2>Stap 3</h2>
+	<p>Log in op <a target="_blank" href="https://company.info/login">company.info</a></p>
+	<p>(<b>LET OP!</b> VPN connectie is soms vereist, kijk op de website van je universiteit, voor hoe je moet inloggen op Company.info)</p>
+     </div>
+		
+
+
+		<div class="row">
+		<form class="form-inline">
+		<h2>Stap 4</h2>
+		<p>Upload het .csv bestand met ingevulde SBI-codes</a></p>
+			<div class="form-group">
+			  <label for="files">Nogmaals max 106 nummers per keer!</label>
+			  <input type="file" id="files"  class="form-control" accept=".csv" required />
+			</div>
+			<div class="form-group">
+			 <button type="submit" value="Send" id="submit-file" class="btn btn-primary">Upload Bestand</button>
+			 </div>
+		</form>
+		</div>
+
+
+<div id="Company_info_link">
+</div> 
+
+  </div>
+
+
+  <footer class="page-footer white">
+    <div class="container">
+       <div class="row">
+	<div class="unifooter"> Voor ondersteuning neem contact op met Thijs Kok via <a href="https://www.linkedin.com/in/thijs-kok/" target="_blank">LinkedIn</a> of stuur hem een <A HREF="mailto:thijs2341@hotmail.nl">mail</A></div>
+    </div>
+  </footer>
+
+ </body>
+</html>
